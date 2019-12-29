@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ShoppingBook">
+    <Resource name="lab2" 
+              type="javax.sql.DataSource" auth="Container"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;databaseName=Lab2;instanceName=SE130680\\SQLEXPRESS"
+              username="sa" password="van070599"/>
+</Context>
